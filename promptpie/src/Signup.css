@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: row;
   background-color: rgb(255, 255, 255);
-  margin: 3rem;
+  margin: 4rem;
   border-radius: 2.5rem;
   padding-bottom: 1rem;
   
@@ -33,14 +33,18 @@ body {
 
 .content .image-container {
   display:flex;
-  width: 80px;
-  height: 467px;
-  flex-basis: 70%;
+  flex-basis: 50%;
+  width: 100px;
+  height: 507px;
+  flex-basis:50%;
   transform: scale(1.48);
-  margin-top:7rem;
-  margin: left 0; ;
+  margin-top:7.5rem;
+  margin-left: 5.9rem ;
   margin-right: 0;
   
+}
+.image-container .Signup-man{
+  border-radius: 1.7rem;
 }
 
 .form-container {
@@ -48,7 +52,7 @@ body {
   font-size: 3.75rem;
   font-weight: bold;
   position: relative;
-  margin-left: 25rem;
+  margin-left: 7rem;
 
 }
 
@@ -72,6 +76,7 @@ body {
   margin-top: 1rem;
   margin-right:10rem;
   margin-left: 2rem;
+  justify-items: start;
 }
 
 .input-label {
@@ -82,16 +87,21 @@ body {
   color: #1f2937;
   margin-right:18rem;
   padding-bottom: 0;
+  justify-items: start;
+  align-content: flex-start;
 }
 
 .input-field {
-  width: 80%;
+  width: 100%;
   padding: 0.5rem ;
   border-radius: 0.375rem;
   border: none;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   background-color: #f8fafc;
   transition: ring 0.3s ease-in-out;
+  justify-items: start;
+  align-content: flex-start;
+  margin-right: 18rem;
 }
 
 .input-field:hover {
@@ -116,20 +126,24 @@ body {
 .form-container .login-option {
   display: flex;
   flex-direction: row;
-  margin-top: 1.5rem;
-  margin-left: 6rem;
+  margin-top: 1rem;
+  text-align: right;
+  margin-left: 7rem;
+  margin-right: 5rem;
 }
 
 .login-option span {
+  display: flex;
   font-size: 0.875rem;
   font-weight: bold;
 }
 
 .form-container .login-btn {
+  display: flex;
   font-size: 0.875rem;
   font-weight: bold;
   color: #2563eb;
-  margin-left: 1rem;
+  margin-left: 0;
   background: none;
   border: none;
   cursor: pointer;
@@ -137,7 +151,7 @@ body {
 
 .separator {
   border-top: 1px solid #e2e8f0;
-  margin-top: 1rem;
+ 
   width: 58.33%;
   margin-left: 3rem;
 }
@@ -147,14 +161,17 @@ body {
   align-items: center;
   background-color: white;
   border: 1px solid rgb(0, 0, 0);
-  padding: 0.375rem 1rem;
-  font-size: 1rem;
+  padding: 0.5rem 0.5rem;
+  padding-left: 0.7rem;
+  padding-right: 0.5rem;
+  font-size:0.9rem;
   font-weight: 600;
   color: rgb(0, 0, 0);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  margin-left: 6.5rem;
+  margin-left:7.5rem;
   margin-top: 1rem;
   cursor: pointer;
+  width: 12.5rem;;
   border-radius: 2rem;
   margin-bottom: 2rem;;
 }
@@ -173,4 +190,11 @@ body {
   color: #cbd5e1;
   text-align: center;
   margin-top: 2rem;
+  background-color: #cbd5e1;
+}
+
+@media only screen and (min-width: 1366px){
+  body{
+    background-color: white;
+  }
 }

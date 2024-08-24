@@ -12,7 +12,7 @@ const Signup =()=>
       <html>
       <head>
         <meta charset="UTF-8"></meta>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" href="styles.css"></link>
         <title>Signup Page</title>
       </head>
@@ -22,7 +22,7 @@ const Signup =()=>
           <div class="header">Signup</div>
           <div class="content">
             <div class="image-container">
-              <img src={signup} ></img>
+              <img src={signup} class='Signup-man'></img>
             </div>
       
             <div class="form-container">
